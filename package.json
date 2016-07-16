@@ -1,0 +1,22 @@
+{
+  "name": "path-to-animation",
+  "version": "0.0.1",
+  "description": "Convert array of paths to animation css animation keyframes",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests"
+  },
+  "author": "Iliyan Betovski",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "bezier-curve": "^1.0.0"
+  }
+}
