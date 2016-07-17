@@ -61,4 +61,18 @@ describe('CSS', function() {
 
     expect(css.generateCssKeyframes(keyframesValues, namespace, itemName)).to.equal(expectedResult);
   });
+
+  it('should generate css class with content', function() {
+    var namespace = 'namespace';
+    var itemName = 'item1';
+    var animationName = 'customname-animation';
+
+    var expectedResult = [
+      '.animated-namespace-item1 {',
+      '\t@include customname-animation(namespace-item1);',
+      '}'
+    ].join('\n');
+
+    expect(css.generateCssClass(namespace, itemName, animationName)).to.equal(expectedResult);
+  });
 });
