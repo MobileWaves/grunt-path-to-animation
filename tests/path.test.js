@@ -74,7 +74,7 @@ describe('Path', function() {
 
     var expectedPath = [
       ['0%', '0%'],
-      ['50%', '50%']
+      ['50.00%', '50.00%']
     ];
 
     var pathInPercentages = path.toPercentages(sourcePath, relativeElementWidth, relativeElementHeight);

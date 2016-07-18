@@ -18,7 +18,7 @@ describe('Brain', function() {
     var expectedOutput = [
       '@keyframes mynamespace-item1 {',
       '\t0% { transform: translate(0%, 0%); }',
-      '\t100% { transform: translate(50%, 50%); }',
+      '\t100% { transform: translate(50.00%, 50.00%); }',
       '}',
       '.animated-mynamespace-item1 {',
       '\t@include the-sass-mixin-name(mynamespace-item1);',
