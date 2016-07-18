@@ -39,7 +39,16 @@ describe('Path', function() {
 
   it('should interpolate', function() {
     var sourcePath = nestedPath;
-    expect(path.interpolate(sourcePath).length).to.be.above(sourcePath.length);
+    expect(path.interpolate(sourcePath).length).to.be.above(30);
+  });
+
+  it('should NOT interpolate', function() {
+    var sourcePath = [
+      [50,50],
+      [100,100]
+    ];
+
+    expect(path.interpolate(sourcePath).length).to.be.equal(sourcePath.length);
   });
 
   it('should add offset', function() {
