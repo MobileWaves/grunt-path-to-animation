@@ -1,4 +1,4 @@
-var brain = require('./lib/brain');
+var brain = require('../lib/brain');
 var _ = require('lodash');
 
 module.exports = function(grunt) {
