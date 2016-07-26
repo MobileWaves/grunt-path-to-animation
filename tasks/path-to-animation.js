@@ -22,7 +22,7 @@ module.exports = function(grunt) {
   });
 
   // Used to check if the namespace is a valid name for css classname to be used
-  var validCssClassNameRule = /^[a-z\-\_0-9]+$/g;
+  var validCssClassNameRule = /^[a-z\-\_0-9]+$/;
 
   grunt.registerMultiTask('path-to-animation', '', function() {
     var config = _.assign({}, this.options(), this.data);
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
     if (typeof config.namespace != 'string') {
       throwForMissingConfig('namespace');
     } else if (!validCssClassNameRule.test(config.namespace)) {
-      logError('namespace should contain valid css characters');
+      logError('namespace ' + config.namespace + ' should contain valid css characters');
     }
 
     if (typeof config.elementSize === 'undefined') {
