@@ -5,7 +5,7 @@ module.exports = function(grunt) {
       // custom configuration goes here:
       'customTask': {
         // where to save the sass file when ready
-        dest: './output/output.scss',
+        dest: './example/output.scss',
         // property name to read from. It will be used for the css class name
         //  and for the css @keyframes name.
         // the namespace should contain valid css class names characters
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 
       'smallerElement': {
         // where to save the sass file when ready
-        dest: './output/output1.scss',
+        dest: './example/output1.scss',
         // property name to read from. It will be used for the css class name
         //  and for the css @keyframes name.
         // the namespace should contain valid css class names characters
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
       dist: {
         style: 'expanded',
         files: [{
-          'output/output.css': 'output/output_master.scss'
+          'example/output.css': 'example/output_master.scss'
         }]
       }
     }

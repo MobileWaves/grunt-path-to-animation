@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="output.css">
+  <style type="text/css">
+
+    .container {
+      border: 1px solid blue;
+      width: 500px;
+      height: 500px;
+      position: relative;
+    }
+
+    .element,
+    .element1,
+    .element2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      backface-visibility: hidden;
+      perspective: 1000px;
+      transform: translateZ(0);
+    }
+
+    .element {
+      background: #dab;
+      width: 100px;
+      height: 100px;
+    }
+
+    .element1 {
+      background: #c99;
+      width: 50px;
+      height: 50px;
+    }
+
+    .element2 {
+      background: pink;
+      width: 50px;
+      height: 50px;
+    }
+
+
+  </style>
+  <script type="text/javascript">
+  // Go crazy and generate many elements with predefined animations
+  // var classes = [
+  //   'generated element animated-dodo-item1',
+  //   'generated element1 animated-smaller-element-item1',
+  //   'generated element2 animated-smaller-element-item2'
+  // ];
+
+  // var colors = [
+  //   '#abc',
+  //   'red',
+  //   '#adc',
+  //   'yellow',
+  //   '#dac',
+  //   '#bec'
+  // ];
+
+    // create
+    // setInterval(function() {
+    //   var $element = document.createElement('div');
+    //   $element.setAttribute('class', classes[Math.floor(Math.random() * 3)]);
+    //   $element.setAttribute('style', 'background: ' + colors[Math.floor(Math.random() * 6)] + '; left: ' + Math.floor(Math.random() * 2000) + 'px');
+    //   document.getElementsByClassName('container')[0].appendChild($element);
+    // }, 100);
+
+    // // clear
+    // setInterval(function() {
+    //   var parent = document.getElementsByClassName('container')[0]
+    //   parent.removeChild(document.getElementsByClassName('generated')[0]);
+    // }, 200);
+
+  </script>
+  <title></title>
+</head>
+<body>
+  <div class="container">
+    <div class="element animated-custom-namespace-name-item1"></div>
+    <div class="element1 animated-smaller-element-item1"></div>
+  </div>
+</body>
+</html>
