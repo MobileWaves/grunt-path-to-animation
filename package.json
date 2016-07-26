@@ -1,15 +1,15 @@
 {
-  "name": "path-to-animation",
+  "name": "grunt-path-to-animation",
   "version": "0.0.1",
-  "description": "Convert array of paths to animation css animation keyframes",
-  "main": "index.js",
+  "description": "Predefine CSS keyframe animations by interpolating array of points",
+  "main": "tasks/path-to-animation.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha tests"
   },
-  "author": "Iliyan Betovski",
+  "author": "Mobile Wave Solutions",
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
