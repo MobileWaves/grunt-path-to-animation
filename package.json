@@ -1,0 +1,39 @@
+{
+  "name": "grunt-path-to-animation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MobileWaves/grunt-path-to-animation.git"
+  },
+  "version": "0.0.1",
+  "description": "Predefine CSS keyframe animations by interpolating array of points",
+  "main": "tasks/path-to-animation.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests"
+  },
+  "author": "Mobile Wave Solutions",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-sass": "^1.2.0",
+    "mocha": "^2.5.3",
+    "node-sass": "^3.8.0"
+  },
+  "dependencies": {
+    "bezier-curve": "^1.0.0",
+    "lodash": "^4.14.0"
+  },
+  "keywords": [
+    "array",
+    "animation",
+    "keyframes",
+    "css",
+    "predefined",
+    "interpolate",
+    "bezier",
+    "curve"
+  ]
+}

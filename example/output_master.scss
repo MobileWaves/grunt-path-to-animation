@@ -1,0 +1,11 @@
+@mixin sassence($animationName) {
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-name: $animationName;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  will-change: transform;
+}
+
+@import './output.scss';
+@import './output1.scss';
