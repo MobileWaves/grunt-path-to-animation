@@ -14,6 +14,19 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-path-to-animation');
 ```
 
+## Synopsis
+Use to generate `scss` files with predefined @keyframes animations by reading configuration of paths to be interpolated.
+
+### Why would you need this?
+* Do you want to have smooth css animations you don't want to handle by java script?
+* Do you need to pause them?
+* Do you need to resize and keep the animated element's position?
+* Do you want to write such animation manually? And rewrite them every time the client changes the design?
+* Animations using translate instead of top/left positioning are considered as better performance and calculating translate movement manually could be painfully sometimes.
+
+`path-to-animation` needs just a JSON file with animations paths you would need and it will interpolate them and create the file with predefined `@keyframes` animations you need.
+
+
 ## path-to-animation task
 _Run this task with the `grunt path-to-animation` command._
 
@@ -147,6 +160,12 @@ Run
 npm install
 npm test
 ```
+
+## Other tools:
+* [path-to-animation](https://github.com/MobileWaves/path-to-animation)
+* [grunt-path-to-animation](https://github.com/MobileWaves/grunt-path-to-animation)
+* [gulp-path-to-animation](https://github.com/MobileWaves/gulp-path-to-animation)
+
 
 # Contributions
 If you have any suggestions or the tool doesn't cover your needs, don't hasitate to fork us or send us an email <opensource@mobilewaves.com>. Every comment or contribution will be very appreciated.
