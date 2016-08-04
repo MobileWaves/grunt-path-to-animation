@@ -167,6 +167,11 @@ npm test
 * [gulp-path-to-animation](https://github.com/MobileWaves/gulp-path-to-animation)
 
 
+## Changelog
+* **0.1.0** - Separating `path-to-animation` in a separate module. There's no changes in the API.
+* **0.0.1** - Initial version
+
+
 # Contributions
 If you have any suggestions or the tool doesn't cover your needs, don't hasitate to fork us or send us an email <opensource@mobilewaves.com>. Every comment or contribution will be very appreciated.
 
