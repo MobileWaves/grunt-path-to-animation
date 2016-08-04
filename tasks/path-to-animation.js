@@ -1,4 +1,4 @@
-var brain = require('../lib/brain');
+var brain = require('path-to-animation');
 var _ = require('lodash');
 
 module.exports = function(grunt) {

@@ -149,11 +149,11 @@ npm test
 ```
 
 # Contributions
-If you have any suggestions or the tool doesn't cover your needs, don't hasitate to fork us or send us an email <dev@mobilewaves.com>. Every comment or contribution will be very appreciated.
+If you have any suggestions or the tool doesn't cover your needs, don't hasitate to fork us or send us an email <opensource@mobilewaves.com>. Every comment or contribution will be very appreciated.
 
 # MIT License
 
-Copyright (c) 2016 Mobile Wave Solutions (<dev@mobilewaves.com>)
+Copyright (c) 2016 Mobile Wave Solutions (<opensource@mobilewaves.com>)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
