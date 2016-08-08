@@ -168,6 +168,7 @@ npm test
 
 
 ## Changelog
+* **0.1.1** - Synchronize version numbers between the `path-to-animation` modules
 * **0.1.0** - Separating `path-to-animation` in a separate module. There's no changes in the API.
 * **0.0.1** - Initial version
 

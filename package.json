@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/MobileWaves/grunt-path-to-animation.git"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Predefine CSS keyframe animations by interpolating array of points",
   "main": "tasks/path-to-animation.js",
   "directories": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "bezier-curve": "^1.0.0",
     "lodash": "^4.14.0",
-    "path-to-animation": "^0.0.1"
+    "path-to-animation": "^0.1.1"
   },
   "keywords": [
     "array",
